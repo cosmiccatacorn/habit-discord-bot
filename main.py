@@ -242,4 +242,4 @@ async def deletehabit(ctx, *, habit:str):
     user_id = str(ctx.author.id)
     await ctx.send(delete_habit(user_id, habit))
 
-bot.run("your token here")
+bot.run(os.getenv("DISCORD_TOKEN"))
