@@ -110,7 +110,7 @@ def mark_done(user_id, habit_name=None):
     return f"❌ Habit **{habit_name}** not found."
 
 
-delete_habit(user_id, habit_name):
+def delete_habit(user_id, habit_name):
     data = load_data()
     user_id = str(user_id)
     if user_id not in data or len(data[user_id]) == 0:
