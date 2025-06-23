@@ -152,6 +152,7 @@ async def on_ready():
     print(f"✅ Bot is online as {bot.user}")
 
     data = load_data()
+    print("📦 Habits loaded:", data) 
     for user_id, habits in data.items():
         for habit in habits:
             job_id = f"{user_id}_{habit['habit'].lower()}"
