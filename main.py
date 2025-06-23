@@ -177,7 +177,7 @@ async def on_ready():
 async def hello(ctx):
     await ctx.send(f"👋 Hello, {ctx.author.name}! I'm alive and listening.")
 
-@bot.command(name="help")
+@bot.command(name="get_help")
 async def custom_help(ctx):
     help_msg = (
         "🧠 **HabitPal Bot Commands**\n"
