@@ -1,0 +1,32 @@
+{
+    "1386504124085829703": [
+        {
+            "habit": "read",
+            "hour": 11,
+            "minute": 40,
+            "streak": 1,
+            "last_done": "2025-06-23"
+        },
+        {
+            "habit": "new_test",
+            "hour": 11,
+            "minute": 45,
+            "streak": 1,
+            "last_done": "2025-06-23"
+        },
+        {
+            "habit": "smile",
+            "hour": 11,
+            "minute": 52,
+            "streak": 1,
+            "last_done": "2025-06-23"
+        },
+        {
+            "habit": "dance",
+            "hour": 11,
+            "minute": 53,
+            "streak": 0,
+            "last_done": null
+        }
+    ]
+}
