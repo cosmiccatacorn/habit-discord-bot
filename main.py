@@ -178,6 +178,12 @@ async def on_ready():
 async def hello(ctx):
     await ctx.send(f"👋 Hello, {ctx.author.name}! I'm alive and listening.")
 
+from datetime import datetime
+
+@bot.command()
+async def now(ctx):
+    await ctx.send(f"🕒 UTC now: {datetime.utcnow().strftime('%H:%M')}")
+
 @bot.command(name="get_help")
 async def custom_help(ctx):
     help_msg = (
